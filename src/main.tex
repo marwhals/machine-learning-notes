@@ -12,6 +12,7 @@
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
+\usepackage{sublabel}
 %\usepackage{beamerbasenotes}
 %\usepackage[toc]{glossaries} % 'toc' adds the glossary to the table of contents
 %\makeglossaries
@@ -71,54 +72,170 @@
     Scala
     https://spark.apache.org/mllib/
 
+
+    \part{Mathematics for Machine Learning} % Pick one
+    \section{Linear Algebra}
+    \section{Calculus}
+    \section{Probability and Statistics}
+
+
+    \part{Mathematics for Machine Learning}
+    \section{Mathematics for Machine Learning: Linear Algebra}
+    \section{Mathematics for Machine Learning: Multivariate Calculus}
+    \section{Mathematics for Machine Learning: PCA}
+    \subsection{Statistics of Datasets}
+    \subsection{Inner Products}
+    \subsection{Orthogonal Projects}
+    \subsection{Principal Components Analysis}
+
+    \part{Linear Algebra for Machine Learning and Data Science}
+    \section{Systems of Linear equations}
+    \section{Solving systems of linear equations}
+    \section{Vectors and Linear Transformations}ó
+    \section{Determinants and Eigenvectors}
+
     \part{Machine Learning Specialisation}
-    \chapter{Supervised Machine Learning: Regression and Classification}
-    \chapter{Advanced Learning Algorithm}
-    \chapter{Unsupervised Learning, Recommenders, Reinforcement Learning}
+
+    \section{Supervised Machine Learning: Regression and Classification}
+    \subsection{Overview of machine learning}
+    \subsection{Supervised vs Unsupervised Machine Learning}
+    \subsection{Regression model}
+    \subsection{Train the model with gradient descent}
+    \subsection{Multiple Linear Regression}
+    \subsection{Gradient descent in practice}
+    \subsection{Classification with logistic regression}
+    \subsection{Cost function with logistic regression}
+    \subsection{Gradient descent for logistic regression}
+    \subsection{The problem overfitting}
+
+    \section{Advanced Learning Algorithms}
+    \subsection{Neural networks intuition}
+    \subsection{Neural network model}
+    \subsection{TensorFlow implementation}
+    \subsection{Neural network implementation in Python}
+    \subsection{Speculations on artificial general intelligence (AGI)}
+    \subsection{Vectorisation (Optional)}
+    \subsection{Neural Network Training}
+    \subsection{Activation Functions}
+    \subsection{Multiclass Classification}
+    \subsection{Additional Neural Network Concepts}
+    \subsection{Back Propagation}
+    \subsection{Advice for applying machine learning}
+    \subsection{Advice for applying machine learninig}
+    \subsection{Bias and variance}
+    \subsection{Machine learning development process}
+    \subsection{Skewed datasets}
+    \subsection{Decision Trees}
+    \subsection{Decision Tree Learning}
+    \subsection{Tree ensembles}
+
+    \section{Unsupervised Learning, Recommenders, Reinforcement Learning}
+    \subsection{Clustering}
+    \subsection{Anomaly Detection}
+    \subsection{Collaborative filtering}
+    \subsection{Recommender systems implementation details}
+    \subsection{Content-based filtering}
+    \subsection{Principal Component Analysis}
+    \subsection{Reinforcement Learning introduction}
+    \subsection{State-action value function}
+    \subsection{Continuous state spaces}
 
     \part{Deep learning specialisation}
-    \chapter{Neural Networks and Deep Learning}
-    \chapter{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization}
-    \chapter{Structuring Machine Learning Projects}
-    \chapter{Convolution Neural Networks}
-    \chapter{Sequence Models}
-    
-    \part{Improving Deep Neural Networks: Hyperparameter Tuning, Regularisation and Optimisation}
-    \chapter{Practical Aspects of Deep Learning}
-    \chapter{Optimisation Algorithims}
-    \chapter{Hyperparameter Tuning, Regularisation and Optimisation}
+
+    \section{Neural Networks and Deep Learning}
+    \subsection{What is deep learning?}
+    \subsection{Logistic Regression as a Neural Network}
+    \subsection{Python and Vectorisation}
+    \subsection{Shallow Neural Network}
+    \subsection{Deep Neural Network}
+
+    \section{Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization}
+    \subsection{Structuring Machine Learning Projects}
+    \subsection{Setting up a Machine Learning Application}
+    \subsection{Regularising a Neural Network}
+    \subsection{Setting up a Optimisation Problem}
+    \subsection{Optimisation Algorithms}
+    \subsection{Hyperparameter Tuning}
+    \subsection{Batch Normalisation}
+    \subsection{Multi-Class Classification}
+    \subsection{Introduction to Programming Frameworks}
+
+    \section{Convolution Neural Networks}
+    \subsection{Convolutional Neural Networks}
+    \subsection{Deep Convolutional Models: Case Studies}
+    \subsection{Detection Algorithms}
+    \subsection{Face Recognition}
+    \subsection{Neural Style Transfer}
+
+    \section{Sequence Models}
+    \subsection{Recurrent Neural Networks}
+    \subsection{Introduction to Word Embeddings}
+    \subsection{Learning Word Embeddings: Word2vec and GloVe}
+    \subsection{Applications using Word Embeddings}
+    \subsection{Sequence Models and Attention Mechanism}
+    \subsection{Transformer Network}
+
 
     \part{Generative Adverserial Networks (GANs) Specialisation}
-    \chapter{Build Basic Generative Adversarial Networks}
-    \chapter{Build Better Generative Adversarial Networks}
-    \chapter{Apply Generative Adverserial Networks}
-    
+
+    \section{Build Basic Generative Adversarial Networks}
+    \subsection{Intro To GANs}
+    \subsection{Deep Convolutional GANs}
+    \subsection{Wasserstein GANs with Gradient Penalty}
+    \subsection{Conditional GAN and Controllable Generation}
+
+    \section{Build Better Generative Adversarial Networks}
+    \subsection{Evaluation of GANs}
+    \subsection{GAN Disadvantages and Bias}
+    \subsection{StyleGAN and Advancements}
+
+    \section{Apply Generative Adverserial Networks}
+    \subsection{GANs for Data Augmentation and Privacy}
+    \subsection{Image-to-Image Translation with Pix2Pix}
+    \subsection{Unpaired Translation with CycleGAN}
+
     \part{Natural Language Processing Specialisation}
-    \chapter{Natural Language Processing with Classification and Vector Spaces}
-    \chapter{Natural Language Processing with Probabilitsic Models}
-    \chapter{Natural Language Processing with Sequence Models}
-    \chapter{Natural Language Processing with Attention Models}
+
+    \section{Natural Language Processing with Classification and Vector Spaces}
+    \subsection{Sentiment Analysis with Logistic Regression}
+    \subsection{Sentiment Analysis with Naive Bayes}
+    \subsection{Vector Space Models}
+    \subsection{Machine Translation and Document Search}
+
+    \section{Natural Language Processing with Probabilitsic Models}
+    \subsection{Autocorrect}
+    \subsection{Part of Speech Tagging and Hidden Markov Models}
+    \subsection{Autocomplete and Language Models}
+    \subsection{Word embeddings with neural networks}
     
+    \section{Natural Language Processing with Sequence Models}
+    \subsection{Recurrent Neural Network for Language Modeling}
+    \subsection{LSTMs and Named Entity Recognition}
+    \subsection{Siamese Networks}
+    
+    \section{Natural Language Processing with Attention Models}
+    \subsection{Neural Machine Translation}
+    \subsection{Text Summarisation}
+    \subsection{Question Answering}
+
     \part{AI for Scientific Research Specialisation}
-    \chapter{Introduction to Data Science and scikit-learn in Python}
-    \chapter{Machine Learning Models in Science}
-    \chapter{Neural Networks and Random Forests}
-    \chapter{Project}
+
+    \section{Introduction to Data Science and scikit-learn in Python}
+    \subsection{Introduction to Python Programming for Hypothesis Testing}
+    \subsection{Creating a Hypothesis: Numpy, Pandas and Scikit-Learn}
+    \subsection{Scikit-Learn: ML for Hypothesis Testing}
+    \subsection{Using Classification to Predict the Presence of Heart Disease}
     
-    \part{Mathematics for Machine Learning}
-    \chapter{Linear Algebra}
-    \chapter{Calculus}
-    \chapter{Probability and Statistics}
-        
-    \part{Mathematics for Machine Learning}
-    \chapter{Mathematics for Machine Learning: Linear Algebra}
-    \chapter{Mathematics for Machine Learning: Multivariate Calculus}
-    \chapter{Mathematics for Machine Learninig: PCA}
+    \section{Machine Learning Models in Science}
+    \subsection{Before the AI: Preparing and Preprocessing Data}
+    \subsection{Foundational AI Algorithms: K-Means and SVM}
+    \subsection{Advanved AI: Neural Netoworks and Decision Trees}
     
-    \part{Linear Algebra for Machine Learning and Data Science}
-    \chapter{Systems of Linear equations}
-    \chapter{Solving systems of linear equations}
-    \chapter{Vectors and Linear Transformations}
-    \chapter{Determinants and Eigenvectors}
+    \section{Neural Networks and Random Forests}
+    \subsection{Introduction to Neural Networks}
+    \subsection{Deep Dive into Neural Networks}
+    \subsection{Exploring Random Forests}
+
+    \section{Project}
 
 \end{document}
