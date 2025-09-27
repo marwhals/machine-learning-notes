@@ -1,0 +1,166 @@
+\part{Data Engineering}
+
+\section{Introduction to Data Engineering}
+\subsection{Introduction to Data Engineering}
+\subsubsection{Data Engineering Defined}
+\subsubsection{A Brief History of Data Engineering}
+\subsubsection{The Data Engineer Among Other Stakeholders}
+\subsubsection{Business Value}
+\subsubsection{System Requirements}
+\subsubsection{Requirements Gathering Conversation}
+\subsubsection{Translate Stakeholder Needs Into Specific Requirements}
+\subsubsection{Thinking Like a Data Engineer}
+\subsubsection{Data Engineering on the Cloud}
+\subsubsection{Intro to the AWS Cloud}
+\subsubsection{Intro to AWS Core Services}
+
+\subsection{The Data Engineering Lifecycle}
+\subsubsection{Data Generation in Source Systems}
+\subsubsection{Ingestion}
+\subsubsection{Storage}
+\subsubsection{Queries, Modelling and Transformation}
+\subsubsection{Serving Data}
+\subsubsection{Introduction to the Undercurrents}
+\subsubsection{Security}
+\subsubsection{Data Management}
+\subsubsection{Data Architecture}
+\subsubsection{DataOps}
+\subsubsection{Orchestration}
+\subsubsection{Software Engineering}
+\subsubsection{The Data Engineering Lifecycle on AWS}
+\subsubsection{The Undercurrents on AWS}
+
+\subsection{What is data architecture}
+\subsubsection{What is Data Architecture}
+\subsubsection{Conway's Law}
+\subsubsection{Principles of Good Data Architecture}
+\subsubsection{Always Architecting}
+\subsubsection{When you systems fail}
+\subsubsection{Batch Architectures}
+\subsubsection{Streaming Architectures}
+\subsubsection{Architecting for Compliance}
+\subsubsection{Choosing Tools and Technologies}
+\subsubsection{Location}
+\subsubsection{Monolith vs Modular Systems}
+\subsubsection{Cost Optimisation and Business Value}
+\subsubsection{Build vs Buy}
+\subsubsection{Server, Container and Serverless Compute Options}
+\subsubsection{How the undercurrents impact your decisions}
+\subsubsection{Intro to the AWS Well-Architected Framework}
+\subsubsection{The AWS Well-Architected Framework}
+
+\subsection{Translating Architecture into Requirements}
+\subsubsection{Requirements}
+\subsubsection{Documenting Nonfunctional Requirements}
+\subsubsection{Requirements Gathering Summary}
+\subsubsection{AWS Services for Batch Pipelines}
+\subsubsection{AWS Services for Streaming Pipelines}
+
+
+\section{Source Systems, Data Ingestion and Pipelines}
+\subsection{Working with Source Systems}
+\subsubsection{Different Types of Source Systems}
+\subsubsection{Relational Databases, SQL Queries}
+\subsubsection{NoSQL Databases and ACID Compliance}
+\subsubsection{Object Storage and Logs}
+\subsubsection{Streaming Systems}
+\subsubsection{Connecting to Source Systems}
+\subsubsection{IAM and Permissions}
+\subsubsection{Networking in the Cloud}
+\subsubsection{AWS Networking (VPCs, Subnets, Gateways, Route Tables, ACLs, Security Groups)}
+
+\subsection{Data Ingestion}
+\subsubsection{Batch and Streaming Ingestion Patterns}
+\subsubsection{ETL vs. ELT Paradigms}
+\subsubsection{REST APIs for Batch Ingestion}
+\subsubsection{Streaming Ingestion and Kinesis Data Streams}
+
+\subsection{DataOps}
+\subsubsection{CI/CD for Data and Code}
+\subsubsection{Infrastructure as Code with Terraform}
+\subsubsection{Terraform: EC2 Instances, Variables, Outputs, Modules}
+\subsubsection{Data Observability Concepts}
+\subsubsection{Monitoring Data Quality with Great Expectations}
+\subsubsection{Infrastructure Monitoring with Amazon CloudWatch}
+
+\subsection{Orchestration, Monitoring and Automating Your Data Pipelines}
+\subsubsection{Orchestration Basics and Evolution}
+\subsubsection{Airflow Core Components}
+\subsubsection{Airflow UI}
+\subsubsection{Creating and Managing DAGs}
+\subsubsection{Airflow Features: XCom, Variables, Taskflow API}
+\subsubsection{Orchestration on AWS}
+
+\section{Data Storage and Queries}
+\subsection{Storage Ingredients and Storage Systems}
+\subsubsection{Physical Components of Data Storage}
+\subsubsection{Processes Required for Data Storage}
+\subsubsection{Cloud Storage Options: Block, Object, and File Storage}
+\subsubsection{Storage Tiers: Hot, Warm, and Cold Data}
+\subsubsection{Distributed Storage Systems}
+\subsubsection{How Databases Store Data}
+\subsubsection{Row vs. Column Storage}
+\subsubsection{Graph Databases}
+\subsubsection{Vector Databases}
+\subsubsection{Neo4j and Cypher Query Language (Part 1)}
+\subsubsection{Neo4j and Cypher Query Language (Part 2)}
+
+\subsection{Storage Abstractions}
+\subsubsection{Data Warehouse — Key Architectural Ideas}
+\subsubsection{Modern Cloud Data Warehouses}
+\subsubsection{Data Lakes — Key Architectural Ideas}
+\subsubsection{Next-Generation Data Lakes}
+\subsubsection{Data Lakehouse Architecture}
+\subsubsection{Data Lakehouse Implementation}ó
+\subsubsection{Lakehouse Architecture on AWS}
+\subsubsection{Implementing a Lakehouse on AWS}
+
+\subsection{Queries}
+\subsubsection{The Life of a Query}
+\subsubsection{Advanced SQL Queries (Part 1)}
+\subsubsection{Advanced SQL Queries (Part 2)}
+\subsubsection{Index Deep Dive}
+\subsubsection{Retrieving Only the Data You Need}
+\subsubsection{The Join Statement}
+\subsubsection{Aggregate Queries}
+\subsubsection{Amazon Redshift Cloud Data Warehouse}
+\subsubsection{Additional Query Strategies}
+\subsubsection{Queries on Streaming Data}
+\subsubsection{Deploying Applications with Amazon Managed Service for Apache Flink}
+\subsubsection{Deploying Studio Notebooks with Amazon Managed Service for Apache Flink}
+
+\section{Data Modelling, Transformation and Serving}
+\subsection{Data Modelling and Transformation for Analytics}
+\subsubsection{Conceptual, Logical and Physical Data Modeling}
+\subsubsection{Normalization}
+\subsubsection{Dimensional Modeling - Star Schema}
+\subsubsection{Inmon vs. Kimball Data Modeling Approaches for Data Warehouses}
+\subsubsection{Data Vault}
+\subsubsection{One Big Table}
+\subsubsection{Demo: Transforming Data with dbt (Part 1)}
+\subsubsection{Demo: Transforming Data with dbt (Part 2)}
+
+\subsection{Data Modelling and Transformations for Machine Learning}
+\subsubsection{Machine Learning Overview}
+\subsubsection{Modeling Data for Traditional ML Algorithms}
+\subsubsection{Demo: Processing Tabular Data with Scikit-Learn (Part 1)}
+\subsubsection{Demo: Processing Tabular Data with Scikit-Learn (Part 2)}
+\subsubsection{Modeling Image Data for ML Algorithms}
+\subsubsection{Preprocessing Texts for Analysis and Text Classification}
+\subsubsection{Text Vectorization and Embedding}
+
+\subsection{Data Transformations and Technical Considerations}
+\subsubsection{Batch Transformation Patterns and Use Cases}
+\subsubsection{Distributed Processing Framework — Hadoop}
+\subsubsection{Distributed Processing Framework — Spark}
+\subsubsection{Spark DataFrames}
+\subsubsection{Amazon EMR}
+\subsubsection{AWS Glue Overview}
+\subsubsection{Technical Considerations}
+\subsubsection{Streaming Processing}
+
+\subsection{Serving Data}
+\subsubsection{Serving Data for Analytics and Machine Learning}
+\subsubsection{Views and Materialized Views}
+\subsubsection{Summary of the Program Concepts}
+\subsubsection{Program Conclusion}
