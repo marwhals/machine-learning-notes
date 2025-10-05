@@ -30,11 +30,11 @@
 \contentsline {subsection}{\numberline {2.9.1}Exmaples}{20}{subsection.2.9.1}%
 \contentsline {section}{\numberline {2.10}Data-centric AI development}{21}{section.2.10}%
 \contentsline {section}{\numberline {2.11}A useful picutre of data augmentation}{21}{section.2.11}%
-\contentsline {section}{\numberline {2.12}Data augmentation}{21}{section.2.12}%
+\contentsline {section}{\numberline {2.12}Data augmentation}{22}{section.2.12}%
 \contentsline {section}{\numberline {2.13}Can adding data hurt?}{22}{section.2.13}%
 \contentsline {section}{\numberline {2.14}Adding features}{23}{section.2.14}%
 \contentsline {section}{\numberline {2.15}Experiemnt Tracking}{24}{section.2.15}%
-\contentsline {section}{\numberline {2.16}From big data to good data}{24}{section.2.16}%
+\contentsline {section}{\numberline {2.16}From big data to good data}{25}{section.2.16}%
 \contentsline {chapter}{\numberline {3}Data Definition and Base Line}{27}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Why is data definition hard?}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}More label ambiguity examples}{27}{section.3.2}%
@@ -42,13 +42,13 @@
 \contentsline {section}{\numberline {3.4}Small data and label inconsistency}{29}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Improving label consistency}{29}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Human level performance}{29}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Raising HLP}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Raising HLP}{30}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Obtaining Data}{30}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Data pipelines}{30}{section.3.9}%
+\contentsline {section}{\numberline {3.9}Data pipelines}{31}{section.3.9}%
 \contentsline {section}{\numberline {3.10}Meta-data, data provenance and lineage}{31}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Balanced train / dev / test / splits}{31}{section.3.11}%
+\contentsline {section}{\numberline {3.11}Balanced train / dev / test / splits}{32}{section.3.11}%
 \contentsline {section}{\numberline {3.12}What is Scoping?}{32}{section.3.12}%
 \contentsline {section}{\numberline {3.13}Scoping process}{32}{section.3.13}%
-\contentsline {section}{\numberline {3.14}Dillgence on feasibility and value}{32}{section.3.14}%
+\contentsline {section}{\numberline {3.14}Dillgence on feasibility and value}{33}{section.3.14}%
 \contentsline {section}{\numberline {3.15}Dillegence on value}{33}{section.3.15}%
 \contentsline {section}{\numberline {3.16}Milestones and resourcing}{33}{section.3.16}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.29)  4 OCT 2025 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.8.29)  5 OCT 2025 20:27
 entering extended mode
 **./main.tex
 (main.tex
@@ -1137,24 +1137,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 2.
 [15]
-parts/machine_learning_in_production.tex:293: Missing $ inserted.
+parts/machine_learning_in_production.tex:301: Missing $ inserted.
 <inserted text> 
                 $
-l.293 ... does anything other than return desired_
+l.301 ... does anything other than return desired_
                                                   thing as the number one ra...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-parts/machine_learning_in_production.tex:295: Missing $ inserted.
+parts/machine_learning_in_production.tex:303: Missing $ inserted.
 <inserted text> 
                 $
-l.295 
+l.303 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (390.95845pt too wide) in paragraph at lines 293--295
+Overfull \hbox (390.95845pt too wide) in paragraph at lines 301--303
 \OT1/phv/m/n/10.95 web search en-gine does any-thing other than re-turn desired
 $[]\OML/cmm/m/it/10.95 hingasthenumberonerankedresult:Asearchenginethatdoesn[]t
 givetherightresultswillquicklylosethetrustofitsusers:$ 
@@ -1189,31 +1189,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [18]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
+(hyperref)                removing `math shift' on input line 476.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 473.
+(hyperref)                removing `subscript' on input line 476.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 473.
-
-parts/machine_learning_in_production.tex:486: Missing $ inserted.
-<inserted text> 
-                $
-l.486 F_
-        1 score is not the only metric.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-parts/machine_learning_in_production.tex:487: Missing $ inserted.
-<inserted text> 
-                $
-l.487 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(hyperref)                removing `math shift' on input line 476.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1224,9 +1208,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [19]
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1351,20 +1332,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (C:/Users\Marjan\Documents\ScalaProjects\machine-learning-notes\out\main.aux
 (C:/Users\Marjan\Documents\ScalaProjects\machine-learning-notes\out\parts/machi
 ne_learning_in_production.aux))
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A01AB7E5ED1F66DAD6C1AC9F6AC6E6D7;8794
-(rerunfilecheck)             After:  9B43660112AE662BD55083EAF3F33DC5;8981.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9B43660112AE662BD55083EAF3F33DC5;8981.
  ) 
 Here is how much of TeX's memory you used:
- 32157 strings out of 478864
- 766123 string characters out of 2848186
- 1192804 words of memory out of 3000000
- 49442 multiletter control sequences out of 15000+600000
+ 32158 strings out of 478864
+ 766137 string characters out of 2848186
+ 1193804 words of memory out of 3000000
+ 49443 multiletter control sequences out of 15000+600000
  422926 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,19n,130p,728b,2376s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1379,9 +1354,9 @@ rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Marjan/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Marjan/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
 Output written on C:/Users\Marjan\Documents\ScalaProjects\machine-learning-note
-s\out\main.pdf (33 pages, 204653 bytes).
+s\out\main.pdf (33 pages, 205222 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
+ 486 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
- 413 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 
